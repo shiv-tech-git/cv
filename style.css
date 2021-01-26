@@ -10,10 +10,10 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    position: absolute;
-    top: 20px;
-    left: 50px;
     box-shadow: 3px 3px 10px grey;
+
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .avatar:hover {
@@ -21,16 +21,11 @@
 }
 
 .header {
-
-    background-color: rgb(212, 212, 212);
     display: flex;
-    height: 150px;
 }
 
 .header-text {
     margin-top: 20px;
-    margin-left: auto;
-    width: 70%;
 }
 
 .header-text h1 {
@@ -39,7 +34,7 @@
 }
 
 .header-text p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .left-area {
@@ -49,7 +44,7 @@
 
 .contanc {
     margin-left: 30px;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 18px;
 }
 
